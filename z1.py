@@ -124,7 +124,7 @@ def predict():
     #pred = joblib.load('logreg.joblib')
     #st.dataframe(project)
     #st.success(everything(project))
-    from churnback4 import model_fited
+    #from churnback4 import model_fited
     #from churnback5 import projectlast
     #st.success( model_fited.predict(projectlast) )
     st.success(f"CHUrn : {model_fited.predict(project)[0]}")
