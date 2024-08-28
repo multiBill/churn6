@@ -6,8 +6,8 @@ from sklearn.preprocessing import MinMaxScaler
 #from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
-import warnings
-warnings.filterwarnings('ignore')
+#import warnings
+#warnings.filterwarnings('ignore')
 #from churnconnect import project
 
 df = pd.read_csv(r"z3_IT_customer_churn.csv")
